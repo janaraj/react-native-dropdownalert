@@ -405,7 +405,8 @@ export default class DropdownAlert extends Component {
                 }),
               }],
               position: 'absolute',
-              top: this.state.topValue,
+              //top: this.state.topValue,
+              bottom: 0,
               left: 0,
               right: 0
             }}>
