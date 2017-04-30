@@ -442,10 +442,11 @@ var styles = StyleSheet.create({
     paddingBottom: 5,
     paddingLeft: 8,
     paddingRight: 8,
-    paddingTop: (Platform.OS === 'android') ? 0 : 20,
+    paddingTop: 5,
     flexDirection: 'row'
   },
   textContainer: {
-    flex: 1
+    flex: 1,
+    paddingLeft: 8,
   }
 })
